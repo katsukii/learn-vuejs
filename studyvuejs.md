@@ -26,6 +26,11 @@ var app = new Vue({
     - 条件分岐のディレクティブ
     - 表示非表示を切り替える 
 - v-show
+    - 要素の表示/非表示を切り替える
+    - CSSのdisplayプロパティ
 - v-for
+    - 繰り返し構文 
+    - <li v-for="value in values">{{ value }}</li>
 - v-on
 - v-model
+
