@@ -12,6 +12,12 @@
 			<input type="text" v-model="newItem">
 			<button v-on:click="addItem">Add</button>
 		</form>
+		<ul>
+			<li v-for="todo in todos">
+				<input type="checkbox" v-model="todo.isDone">
+				<span>{{ todo.item }}</span>
+			</li>
+		</ul>
 		<pre>{{ $data }}</pre>
 
 
